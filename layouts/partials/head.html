@@ -15,7 +15,13 @@
     {{ end }}
 
 		{{ .Hugo.Generator }}
-		<title>{{ .Site.Title }}</title>
+    <title>
+      {{ if .Title}}
+        {{ .Title }} |
+      {{ end }}
+      {{ .Site.Title }}
+    </title>
+
 		<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight.css">
