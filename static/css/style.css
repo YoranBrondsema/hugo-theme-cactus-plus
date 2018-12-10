@@ -158,18 +158,11 @@ h2 {
     margin-bottom: 20px;
 }
 
-.profile h1 {
+.profile h2 {
     font-weight: 400;
     letter-spacing: 0px;
     font-size: 20px;
     color: #222;
-}
-
-.profile h2 {
-    font-size: 20px;
-    font-weight: 300;
-    color: #aaa;
-    margin-top: 10px;
     font-style: normal;
 }
 
@@ -980,4 +973,26 @@ a.symbol:hover {
     font-style: normal;
     line-height: 1.5;
     color: #111;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+/* Books */
+.books li {
+  list-style-type: none;
+  margin: 20px 0;
+}
+
+.books li.favorite .books-title,
+.books li.favorite .books-author {
+  font-weight: 600;
+}
+
+.books .books-author {
+  font-style: italic;
 }
