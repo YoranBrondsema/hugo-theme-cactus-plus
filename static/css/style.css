@@ -996,3 +996,20 @@ a.symbol:hover {
 .books .books-author {
   font-style: italic;
 }
+
+sup {
+  font-size: 80%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+  margin-left: 2px;
+}
+
+sup a:before {
+  content: '[';
+}
+
+sup a:after {
+  content: ']';
+}
