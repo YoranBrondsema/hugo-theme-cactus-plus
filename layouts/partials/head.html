@@ -15,7 +15,13 @@
     {{ end }}
 
 		{{ .Hugo.Generator }}
-    <title>{{ .Site.Title }}</title>
+    <title>
+      {{ if (and (not .Page.IsHome) .Page.Title) }}
+        {{ .Page.Title }} |
+      {{ end }}
+
+      {{ .Site.Title }}
+    </title>
 
 		<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
