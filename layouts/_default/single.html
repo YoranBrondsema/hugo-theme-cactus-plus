@@ -3,6 +3,7 @@
        {{ partial "nav.html" . }}
 
         <section id="wrapper">
+
             <article class="post">
                 <header>
                     <h1>
@@ -38,20 +39,24 @@
                 </section>
             </article>
 
-            {{ if .Site.Params.enableGithubIssuesTips }}
-                {{ partial "github-issues-tip.html" . }}
-            {{ end }}
+            {{ if in .Params.tags "Investing" }}
+              <aside class="enzo-call-to-action">
+                <h4>
+                  Interested in investing?
+                </h4>
 
-            {{ if .Site.Params.enableDisqus }}
-                {{ if ne .Params.disabledisqus "true" }}
-                    {{ partial "disqus.html" . }}
-                {{ end }}
-            {{ end }}
+                <p>
+                  Then you should check out my latest project <a href="https://enzo.fund">Enzo</a>. With Enzo, we are making
+                  passive investing easy and accessible to everyone.  Our
+                  generation is facing a scary financial future and we believe
+                  that improving the way you save money is an important step to
+                  better your financial well-being.
+                </p>
 
-            {{ if .Site.Params.enableDuoshuo }}
-                {{ if ne .Params.disableduoshuo "true" }}
-                    {{ partial "duoshuo.html" . }}
-                {{ end }}
+                <p>
+                  Continue by reading <a href="https://www.yoranbrondsema.com/post/introducing-enzo-a-better-way-of-saving-money/">why we started Enzo</a> and <a href="https://enzo.fund/#sign-up">sign up to the waitlist</a>.
+                </p>
+              </aside>
             {{ end }}
 
             {{ partial "footer.html" . }}
