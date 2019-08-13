@@ -1026,13 +1026,13 @@ sup a:after {
   content: ']';
 }
 
-/* Enzo call to action */
-.enzo-call-to-action {
+/* Curvo call to action */
+.curvo-call-to-action {
   background-color: #eee;
   padding: 30px 20px;
   margin-top: 80px;
 }
 
-.enzo-call-to-action p:last-of-type {
+.curvo-call-to-action p:last-of-type {
   margin: 0;
 }
