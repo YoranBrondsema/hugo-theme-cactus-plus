@@ -977,6 +977,10 @@ a.symbol:hover {
 }
 
 /* Books */
+.books {
+  padding-left: 0;
+}
+
 .books li {
   list-style-type: none;
   margin: 20px 0;
