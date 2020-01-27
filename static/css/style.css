@@ -991,8 +991,13 @@ a.symbol:hover {
   font-weight: 600;
 }
 
+.books .books-title {
+  display: block;
+}
+
 .books .books-author {
   font-style: italic;
+  display: block;
 }
 
 sup {
