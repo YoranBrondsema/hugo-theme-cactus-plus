@@ -1017,6 +1017,11 @@ sup a:after {
   content: ']';
 }
 
+/* Footnote */
+[role="doc-endnote"] p {
+  margin: 0;
+}
+
 /* Curvo call to action */
 .curvo-call-to-action {
   background-color: #eee;
