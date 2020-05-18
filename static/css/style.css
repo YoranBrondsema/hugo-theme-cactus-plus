@@ -1033,3 +1033,8 @@ sup a:after {
 .curvo-call-to-action p:last-of-type {
   margin: 0;
 }
+
+/* Simplify portfolio pt 1 (https://www.yoranbrondsema.com/post/simplifying-my-portfolio-pt-1-questioning-the-small-cap-fund/) */
+.table-simplify-portfolio-small-cap tbody tr:nth-child(3) td {
+  background: #D7E4F8;
+}
