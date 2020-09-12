@@ -874,12 +874,12 @@ a.symbol:hover {
 }
 
 #TableOfContents {
-  margin: 1em 0 0 0;
+  margin: 1em 0 2em 0;
   overflow-x: auto;
   word-wrap: normal;
   word-break: break-all;
   white-space: nowrap;
-  border-left: 1px solid #E4EBF2;
+  border-left: 4px solid #E4EBF2;
   padding-left: 20px;
 }
 

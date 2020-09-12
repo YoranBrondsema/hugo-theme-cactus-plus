@@ -1,5 +1,9 @@
 /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
 
+.highlight pre {
+  background-color: #fff !important;
+}
+
 code {
     background: #fff;
     font-size: 15px;
